@@ -1,1 +1,3 @@
-console.log('hello word');
+import router from './routes';
+
+window.addEventListener('load', router);
