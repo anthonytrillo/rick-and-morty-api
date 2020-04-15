@@ -4,15 +4,15 @@ const Header = () => {
       <div class="Header-logo">
         <h1>
           <a href="/">
-            100tifi.co
+            Rick And Morty
           </a>
         </h1>
       </div>
       <div class="Header-nav">
         <a href="#/about/">
           About
-        </a> 
-      </div>     
+        </a>
+      </div>
     </div>
   `;
   return view;

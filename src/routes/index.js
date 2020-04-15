@@ -14,7 +14,7 @@ const routes = {
 const router = async () => {
   const header = null || document.getElementById('header');
   const content = null || document.getElementById('content');
-  
+
   header.innerHTML = await Header();
   let hash = getHash();
   let route = await resolveRoutes(hash);
