@@ -18,11 +18,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .Header a {
   text-decoration: none;
   color: #15302C;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
 }
 
 .Main {
@@ -33,6 +39,7 @@ body {
 }
 
 .Characters {
+  margin-top: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
