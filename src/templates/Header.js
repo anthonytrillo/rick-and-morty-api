@@ -14,6 +14,7 @@ const Header = () => {
         </a>
       </div>
     </div>
+    <hr>
   `;
   return view;
 };
